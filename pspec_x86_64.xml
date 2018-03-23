@@ -1,0 +1,53 @@
+<PISI>
+    <Source>
+        <Name>ruby-unf</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - unf</Summary>
+        <Description xml:lang="en">This is a wrapper library to bring Unicode Normalization Form support to Ruby/JRuby.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-unf</Name>
+        <Summary xml:lang="en">RubyGem - unf</Summary>
+        <Description xml:lang="en">This is a wrapper library to bring Unicode Normalization Form support to Ruby/JRuby.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/lib/unf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/lib/unf/normalizer.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/lib/unf/normalizer_cruby.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/lib/unf/normalizer_jruby.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/lib/unf/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/test/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/test/normalization-test.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/test/test_unf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/unf-0.1.4/unf.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/unf-0.1.4.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>0.1.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
