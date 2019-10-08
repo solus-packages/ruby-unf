@@ -1,6 +1,6 @@
 name       : ruby-unf
 version    : 0.1.4
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/unf-0.1.4.gem : 4999517a531f2a955750f8831941891f6158498ec9b6cb1c81ce89388e63022e
 license    : BSD-2-Clause
