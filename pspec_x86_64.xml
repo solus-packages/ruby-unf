@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-unf</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,35 +19,32 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/CHANGELOG.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/Gemfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/lib/unf.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/lib/unf/normalizer.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/lib/unf/normalizer_cruby.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/lib/unf/normalizer_jruby.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/lib/unf/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/test/helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/test/normalization-test.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/test/test_unf.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/unf-0.1.4/unf.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/unf-0.1.4.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/lib/unf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/lib/unf/normalizer.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/lib/unf/normalizer_cruby.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/lib/unf/normalizer_jruby.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/lib/unf/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/test/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/test/normalization-test.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/test/test_unf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/unf-0.1.4/unf.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/unf-0.1.4.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
+        <Update release="4">
+            <Date>2020-06-26</Date>
             <Version>0.1.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>

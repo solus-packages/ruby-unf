@@ -1,6 +1,6 @@
 name       : ruby-unf
 version    : 0.1.4
-release    : 3
+release    : 4
 source     :
     - https://rubygems.org/downloads/unf-0.1.4.gem : 4999517a531f2a955750f8831941891f6158498ec9b6cb1c81ce89388e63022e
 license    : BSD-2-Clause
@@ -9,8 +9,9 @@ summary    : RubyGem - unf
 description: |
     This is a wrapper library to bring Unicode Normalization Form support to Ruby/JRuby.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby-unf_ext
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}
